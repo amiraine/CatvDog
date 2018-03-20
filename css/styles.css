@@ -1,0 +1,18 @@
+img{
+  max-width: 500px;
+}
+h1 {
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  color: red;
+}
+
+button {
+width: 25%;
+float: left 40px;
+margin-left: 180px;
+background-color: black;
+color: white;
+}
