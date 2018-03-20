@@ -20,8 +20,9 @@ $(document).ready(function() {
     Math.floor(Math.random()*catArray.length)
   ];
   $("button#omd").click(function() {
-    $("ul#dogarmy").append("<li>"+"<img src='img/omd.png' class ='doggo'"+"</li>")});
-    $("ul#dogarmy").click(function() {
+    $("ul#dogarmy").append("<li><img src='img/omd.png' class ='doggo'></li>")
+    $("ul#dogarmy").children("li").click(function() {
       $(this).remove();
+    });
     });
 });
